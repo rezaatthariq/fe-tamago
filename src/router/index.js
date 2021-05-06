@@ -5,6 +5,8 @@ import login from '../views/login.vue'
 import register from '../views/register.vue'
 import Dashboard from '../views/Dashboard.vue'
 import profile from '../views/profile.vue'
+import showprofile from '../views/showprofile.vue'
+import joinproject from '../views/joinproject.vue'
 
 Vue.use(VueRouter)
 
@@ -41,6 +43,16 @@ const routes = [
     path: '/profile',
     name: 'profile',
     component: profile,
+  },
+  {
+    path: '/showprofile',
+    name: 'showprofile',
+    component: showprofile,
+  },
+  {
+    path: '/joinproject',
+    name: 'joinproject',
+    component: joinproject,
   }
 ]
 
