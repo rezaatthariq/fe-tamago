@@ -7,6 +7,7 @@ import Dashboard from '../views/Dashboard.vue'
 import profile from '../views/profile.vue'
 import showprofile from '../views/showprofile.vue'
 import joinproject from '../views/joinproject.vue'
+import createproject from '../views/createproject.vue'
 
 Vue.use(VueRouter)
 
@@ -53,6 +54,11 @@ const routes = [
     path: '/joinproject',
     name: 'joinproject',
     component: joinproject,
+  },
+  {
+    path: '/createproject',
+    name: 'createproject',
+    component: createproject,
   }
 ]
 
