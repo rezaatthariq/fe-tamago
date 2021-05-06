@@ -341,7 +341,7 @@ section {
 
 .top-bar {
     position: absolute;
-    width: 61px;
+    width:fit-content;
     height: 30px;
     left: 30px;
     top: 18px;
@@ -607,3 +607,55 @@ section {
     text-align: center;
 }
 
+.detail-project {
+    margin-top: 65px;
+    margin-left: -10px;
+    width: 230px;
+    min-height: 696px;
+    padding: inherit;
+    background: #31A2A4;
+}
+
+.content-detail-project {
+    padding-top: 23px;
+    margin-left: 18px;
+}
+
+.content-detail-project p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.content-detail-project .id-project {
+    width: 100px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.content-detail-project .id-project p {
+    position: absolute;
+    left: 257px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #31A2A4;
+}
+
+.content-detail-project .desc-project {
+    width: 194px;
+    height: fit-content;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.content-detail-project .desc-project p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #31A2A4;
+}

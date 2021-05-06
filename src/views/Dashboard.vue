@@ -23,31 +23,6 @@
               </button>
             </div>
           </div>
-          <Join />
-        </div>
-        
-        <div v-if="joinProject">
-          <transition name="joinModal">
-            <div class="modal-mask">
-              <div class="modal-wrapper">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" @click="joinProject=false"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="" alt="" />
-                      <div class="form-group">
-                        <h1> Join Project </h1>
-                        <label> Project ID </label>
-                        <input type="text" class="form-control" v-model="joinProjectID" />\
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>  
-            </div>  
-          </transition>  
         </div>
     </div>
 </div>
@@ -56,12 +31,11 @@
 <script>
 // @ is an alias to /src
 import Sidenav from "@/components/Sidenav.vue";
-import Join from "@/components/Join.vue";
 
 export default {
   name: "Dashboard",
   components: {
-    Sidenav, Join
+    Sidenav
   },
 };
 

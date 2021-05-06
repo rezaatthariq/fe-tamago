@@ -8,6 +8,7 @@ import profile from '../views/profile.vue'
 import showprofile from '../views/showprofile.vue'
 import joinproject from '../views/joinproject.vue'
 import createproject from '../views/createproject.vue'
+import projectboard from '../views/projectboard.vue'
 
 Vue.use(VueRouter)
 
@@ -59,6 +60,11 @@ const routes = [
     path: '/createproject',
     name: 'createproject',
     component: createproject,
+  },
+  {
+    path: '/projectboard',
+    name: 'projectboard',
+    component: projectboard,
   }
 ]
 
