@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <button class="btn-nav-login" style="z-index:1">
-            <p>Login</p>
+            <p>Login</p>  
           </button>
           <button class="btn-nav-signup" style="z-index:1">
             <p>Sign up</p>

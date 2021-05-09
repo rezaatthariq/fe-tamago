@@ -7,7 +7,9 @@ import Dashboard from '../views/Dashboard.vue'
 import profile from '../views/profile.vue'
 import showprofile from '../views/showprofile.vue'
 import joinproject from '../views/joinproject.vue'
+import joinsuccess from '../views/joinsuccess.vue'
 import createproject from '../views/createproject.vue'
+import createsuccess from '../views/createsuccess.vue'
 import projectboard from '../views/projectboard.vue'
 
 Vue.use(VueRouter)
@@ -57,9 +59,19 @@ const routes = [
     component: joinproject,
   },
   {
+    path: '/joinsuccess',
+    name: 'joinsuccess',
+    component: joinsuccess,
+  },
+  {
     path: '/createproject',
     name: 'createproject',
     component: createproject,
+  },
+  {
+    path: '/createsuccess',
+    name: 'createsuccess',
+    component: createsuccess,
   },
   {
     path: '/projectboard',
