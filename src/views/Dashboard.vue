@@ -1,5 +1,6 @@
 <template>
 <div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <Sidenav />
     <div class="main">
         <!--Header-->
@@ -16,10 +17,10 @@
             </div>
             <div class="home-menu">
               <button class="btn-tamago" @click="openJoin"> 
-                <p> Join Project </p>
+                <p> <i class="fa fa-user-plus" aria-hidden="true"></i>  Join Project </p>
               </button>
               <button class="btn-tamago2"> 
-                <p> Create New Project </p>
+                <p> <i class="fa fa-plus" aria-hidden="true"></i>  Create New Project </p>
               </button>
             </div>
             <br>
