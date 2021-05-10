@@ -12,6 +12,16 @@
             <div class="desc-project">
                 <p> -- ini deskripsi Project -- </p>
             </div>
+
+            <br />
+            <button class="btn-create-div">
+                <p>Create a New Division Board</p>    
+            </button>
+
+            <br />
+            <button class="btn-create-div">
+                <p>Edit Project and Assign Role</p>
+            </button>
         </div>
     </div>
     <!-- End Sidebar -->
