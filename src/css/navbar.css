@@ -29,7 +29,6 @@
     border-width: 0px;
 }
 
-
 .btn-tamago p {
     font-family: 'Poppins', sans-serif;
     padding-top: 4%;
@@ -868,8 +867,8 @@ section {
     font-family: 'Poppins', sans-serif;
     padding-left: 20px;
     padding-right: 10px;
-    padding-top: 22%;
-    font-size: 18px;
+    padding-top: 40px;
+    font-size: 14px;
     font-weight: 600;
     color: #921E5E;
     
@@ -880,14 +879,13 @@ section {
     top: 0px;
     width: 280px;
     background: #921E5E;
-    box-sizing: border-box;
     border-radius: 8px 8px 0px 0px;
 }
 
 .project-card-container .project-card-top p  {
     font-family: 'Poppins', sans-serif;
-    padding-top: 2%;
-    font-size: 20px;
+    padding-top: 10px;
+    font-size: 17px;
     font-weight: 500;
     color: #ffffff;
     text-align: center;
