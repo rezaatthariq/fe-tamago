@@ -22,8 +22,12 @@
                 <p> Create New Project </p>
               </button>
             </div>
+            <br>
+            <ProjectCard />
           </div>
+          
         </div>
+        
     </div>
 </div>
 </template>
@@ -31,15 +35,15 @@
 <script>
 // @ is an alias to /src
 import Sidenav from "@/components/Sidenav.vue";
+import ProjectCard from "@/components/ProjectCard.vue";
 
 export default {
   name: "Dashboard",
   components: {
-    Sidenav
+    Sidenav,
+    ProjectCard
   },
 };
-
-
 </script>
 
 <style lang="css">

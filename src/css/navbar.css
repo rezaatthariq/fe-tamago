@@ -824,7 +824,7 @@ section {
 
 .content-detail-project .id-project p {
     position: absolute;
-    left: 257px;
+    left: 260px;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: #31A2A4;
@@ -843,4 +843,52 @@ section {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #31A2A4;
+}
+
+.project-card-container {
+    position: absolute;
+    width: 80%;
+    height: 700px;
+    left: 254px;
+    top: 210px;
+    
+}
+
+.project-card-container .project-card {
+    padding-top: 20px;
+    height: fit-content;
+    background: #ffffff;
+    border: 1px solid rgba(175, 175, 175, 0.5);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.project-card-container .project-card  p  {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 22%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #921E5E;
+    
+}
+
+.project-card-container .project-card-top   {
+    position: absolute;
+    top: 0px;
+    width: 280px;
+    background: #921E5E;
+    box-sizing: border-box;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.project-card-container .project-card-top p  {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 2%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
 }
