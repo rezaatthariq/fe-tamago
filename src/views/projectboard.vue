@@ -10,7 +10,7 @@
         </div>
         <!--End Header-->
         <ProjectDetail />
-        <DivisiCard />
+        <CreateDivision />
     </div>
 </div>
 </template>
@@ -19,12 +19,12 @@
 // @ is an alias to /src
 import Sidenav from "@/components/Sidenav.vue";
 import ProjectDetail from "@/components/ProjectDetail.vue";
-import DivisiCard from "@/components/divisiCard.vue";
+import CreateDivision from "@/components/CreateDivision.vue";
 
 export default {
   name: "projectboard",
   components: {
-    Sidenav, ProjectDetail, DivisiCard
+    Sidenav, ProjectDetail, CreateDivision
   },
 };
 

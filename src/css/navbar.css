@@ -961,3 +961,56 @@ section {
     color: #ffffff;
     text-align: center;
 }
+
+.create-div .content-create {
+    position: absolute;
+    width: 680px;
+    height: 250px;
+    left: 500px;
+    top: 80px;
+
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.create-div .content-create .create-logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 5%;
+    top: 10%;
+}
+
+.create-div .content-create .create-logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.create-div .content-create .form-create {
+    position: absolute;
+    width: 420px;
+    height: 650px;
+    left: 250px;
+    top: 10px;
+    padding: 20px;
+}
+
+.create-div .content-create .form-create p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #921E5E;
+}
+
+.create-div .content-create .form-create h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #921E5E;
+}
+
+.create-div .content-create .form-group {
+    padding-top: 10px;
+    padding-left: 20px;
+}
