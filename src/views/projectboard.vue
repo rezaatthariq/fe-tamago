@@ -9,8 +9,10 @@
             </p>
         </div>
         <!--End Header-->
-        <ProjectDetail />
-        <CreateDivision />
+        <div class="content-home-bg">
+          <ProjectDetail />
+          <CreateDivision />
+        </div>
     </div>
 </div>
 </template>

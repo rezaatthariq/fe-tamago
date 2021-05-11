@@ -187,11 +187,10 @@ section {
 }
 
 .main {
-    margin-left: 226px;
+    margin-left: 216px;
     /* Same as the width of the sidenav */
     font-size: 28px;
     /* Increased text to enable scrolling */
-    padding: 0px 10px;
 }
 
 .fixed-top {
@@ -219,17 +218,13 @@ section {
 
 .content-home-bg {
     margin-top: 65px;
-    margin-left: -10px;
-    width: 1300px;
     height: 1000px;
-    padding: inherit;
     background: #DFF3F3;
 }
 
 .content-home-bg .content-home {
     padding-top: 23px;
-    margin-left: 18px;
-
+    margin-left: 40px;
 }
 
 .content-home .title-home {
@@ -247,7 +242,6 @@ section {
     border-radius: 8px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 
 .home-menu .btn-tamago p {
     font-family: 'Poppins', sans-serif;
@@ -793,17 +787,15 @@ section {
 
 .detail-project {
     margin-top: 65px;
-    margin-left: -10px;
     width: 230px;
     height: fit-content;
-    padding: inherit;
     background: #31A2A4;
     padding-bottom: 30px;
 }
 
 .content-detail-project {
     padding-top: 23px;
-    margin-left: 18px;
+    margin-left: 20px;
 }
 
 .content-detail-project p {
@@ -823,8 +815,6 @@ section {
 }
 
 .content-detail-project .id-project p {
-    position: absolute;
-    left: 260px;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: #31A2A4;
@@ -857,7 +847,6 @@ section {
 }
 
 .project-card-container .project-card {
-    padding-top: 20px;
     height: fit-content;
     background: #ffffff;
     border: 1px solid rgba(175, 175, 175, 0.5);
@@ -870,7 +859,6 @@ section {
     font-family: 'Poppins', sans-serif;
     padding-left: 20px;
     padding-right: 10px;
-    padding-top: 40px;
     font-size: 14px;
     font-weight: 600;
     color: #921E5E;
@@ -878,16 +866,14 @@ section {
 }
 
 .project-card-container .project-card-top   {
-    position: absolute;
-    top: 0px;
-    width: 280px;
     background: #921E5E;
     border-radius: 8px 8px 0px 0px;
 }
 
 .project-card-container .project-card-top p  {
-    font-family: 'Poppins', sans-serif;
     padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
     font-size: 17px;
     font-weight: 500;
     color: #ffffff;
@@ -1013,4 +999,94 @@ section {
 .create-div .content-create .form-group {
     padding-top: 10px;
     padding-left: 20px;
+}
+
+.task-board-container {
+        margin-left: 40px;
+        margin-right: 40px;
+}
+
+.task-board-container .task-board-top {
+    margin-top: 30px;
+    background: #921E5E;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.task-board-container .task-board-top p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+}
+
+.task-board-container .task-board-top i {
+    padding-top: 2%;
+}
+
+.task-card-container {
+    position: absolute;
+    width: 620px;
+    height: fit-content;
+    left: 255px;
+    top: 170px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.task-board-container .task-card-top   {
+    background: #921E5E;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.task-board-container .task-card-top p  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+}
+
+.task-board-container .task-card {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.task-board-container .task-card h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #921E5E;
+}
+
+.task-board-container .addition {
+    width: 80%;
+} 
+
+.task-board-container .addition .addition-button {
+    background: #921E5E;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.task-board-container .addition .addition-button p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+    color: #ffffff;
+    text-align: left;
 }

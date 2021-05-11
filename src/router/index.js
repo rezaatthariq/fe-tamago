@@ -11,6 +11,7 @@ import joinsuccess from '../views/joinsuccess.vue'
 import createproject from '../views/createproject.vue'
 import createsuccess from '../views/createsuccess.vue'
 import projectboard from '../views/projectboard.vue'
+import DivTaskBoard from '../views/DivTaskBoard.vue'
 
 Vue.use(VueRouter)
 
@@ -77,6 +78,11 @@ const routes = [
     path: '/projectboard',
     name: 'projectboard',
     component: projectboard,
+  },
+  {
+    path: '/divtaskboard',
+    name: 'DivTaskBoard',
+    component: DivTaskBoard,
   }
 ]
 

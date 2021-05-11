@@ -8,6 +8,7 @@
         </div>
         <a href="#home" class="{$active['Dashboard']}"> <i class="fa fa-home"></i>Home</a>
         <a href="#profile" class="{$active['profile']}"><i class="fa fa-user"></i>Profile</a>
+        <a href="#logout" class="{$active['logout']}"><i class="fa fa-sign-out"></i>Log Out</a>
     </div>
     <!-- End Sidebar -->
 </div>
