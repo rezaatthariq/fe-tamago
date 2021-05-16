@@ -11,7 +11,7 @@
         <!--End Header-->
         <div class="content-home-bg">
           <ProjectDetail />
-          <CreateDivision />
+          <EditProject />
         </div>
     </div>
 </div>
@@ -21,12 +21,12 @@
 // @ is an alias to /src
 import Sidenav from "@/components/Sidenav.vue";
 import ProjectDetail from "@/components/ProjectDetail.vue";
-import CreateDivision from "@/components/CreateDivision.vue";
+import EditProject from "@/components/EditProject.vue";
 
 export default {
   name: "projectboard",
   components: {
-    Sidenav, ProjectDetail, CreateDivision
+    Sidenav, ProjectDetail, EditProject
   },
 };
 

@@ -805,11 +805,12 @@ section {
 }
 
 .content-detail-project .id-project {
-    width: 100px;
-    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 194px;
+    height: fit-content;
     background: #FFFFFF;
     border: 1px solid #C4C4C4;
-    
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
 }
@@ -1063,7 +1064,7 @@ section {
 
 .task-board-container .task-card h4 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 600;   
     font-size: 16px;
     line-height: 24px;
     
@@ -1089,4 +1090,77 @@ section {
 
     color: #ffffff;
     text-align: left;
+}
+
+.content-edit-project {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 480px;
+    top: 90px;
+    padding-right: 30px;
+
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.content-edit-project .edit-logo {
+    position: absolute;
+    width: 200px;
+    left: 5%;
+    top: 20%;
+}
+
+.content-edit-project .edit-logo img {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.content-edit-project .form-create {
+    width: 420px;
+    height: fit-content;
+    margin-left: 230px;
+    padding: 20px;
+}
+
+.content-edit-project .form-create p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #921E5E;
+}
+
+.content-edit-project .form-create h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #921E5E;
+}
+
+.content-edit-project .form-group {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.content-edit-project .btn-profile {
+    
+    margin-left: 230px;
+    width: 150px;
+    height: 44px;
+    background: #A77590;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-top: 10px;
+}
+
+.assign-role .col-7 {
+    padding-top: 10px;
+}
+.assign-role select {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #921E5E;
 }
