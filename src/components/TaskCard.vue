@@ -5,7 +5,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <div class="row">
-        <div class="col-3" style="float: center">
+        <div class="col-12" style="float: center">
             <div class="divtask-card-container" type="button">
                 <div class="task-card-content"> 
                     <p> -- Isi card -- </p> 

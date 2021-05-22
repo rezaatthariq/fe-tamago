@@ -1075,6 +1075,27 @@ section {
     width: 80%;
 } 
 
+.task-board-container .btn-submit {
+    margin-left: 100%;
+    width: 150px;
+    height: 44px;
+    background: #921E5E;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.task-board-container .btn-submit p {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5%;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF !important;
+    text-align: center;
+    
+}
+
 .task-board-container .addition .addition-button {
     background: #921E5E;
     border-radius: 8px 8px 8px 8px;
@@ -1188,3 +1209,4 @@ section {
     color: #921E5E;
     padding-bottom: 10px;
 }
+

@@ -32,6 +32,9 @@
                 </div>
             </div>
         </div>
+        <button type="submit" class="btn-submit" style="float: right">
+            <p>Create</p>
+        </button>
     </div>
 </div>
 
